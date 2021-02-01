@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "Dlogging.level.com.baeldung",
+      "type": "java.lang.String",
+      "description": "Description for Dlogging.level.com.baeldung."
+    },
+    {
+      "name": "@PropertySource(value",
+      "type": "java.lang.String",
+      "description": "Description for @PropertySource(value."
+    }
+  ] }
