@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.dao.UserMapper">
+
+
+    <resultMap id="UserResultMap" type="User">
+        <id column="id" property="id"/>
+        <result column="login" property="login"/>
+        <result column="password" property="password"/>
+    </resultMap>
+
+    <resultMap id="RolesResultSet" type="Roles"/>
+
+    <resultMap id="UserFull" type="User">
+        <id column="id" property="id"/>
+        <result column="login" property="login"/>
+        <result column="password" property="password"/>
+        <collection property="roles" ofType="Roles">
+            <id column="roles_id" property="id"/>
+            <result column="name" property="name"/>
+        </collection>
+    </resultMap>
+
+    <delete id="deleteUser">
+        DELETE FROM users WHERE id=#{id}
+    </delete>
+
+    <delete id="deleteUserRoles">
+        DELETE FROM user_roles WHERE user_id=#{id}
+    </delete>
+
+    <update id="updateUser">
+       UPDATE users SET login=#{login},password=#{password} WHERE id=#{id}
+    </update>
+
+    <insert id="addUser">
+      INSERT INTO users (login, password) VALUES (#{login},#{password})
+    </insert>
+
+    <insert id="addUserRoles">
+      INSERT INTO user_roles VALUES (#{userId},#{rolesId})
+    </insert>
+    
+</mapper>

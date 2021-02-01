@@ -1,0 +1,268 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;
+    margin: 0px;
+}
+/*Header*/
+header {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: #5181b8;
+    }
+
+.container-header {
+    width: 784px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 15%;
+
+}
+
+/*Logo*/
+.title-logo {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    margin-top: -9px;
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+
+.g, .s {
+    color: blue;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.ood, .oft {
+
+    color: orange;
+}
+
+/*link*/
+a {
+    text-decoration: none;
+}
+
+.a-nav {
+    color: white;
+}
+
+a:hover {
+    opacity: 0.6;
+    transition: .8s;
+}
+
+/*Lists*/
+.ul_nav {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+.li_nav {
+    font-size: 12px;
+    margin: 0 20px;
+    float: right;
+    color: white;
+}
+
+li {
+    display: inline;
+    margin: 0 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.li_nav:hover {
+    border-bottom: 1px solid #5991c7;
+    opacity: 0.6;
+    transition: .5s;
+}
+
+/*Content-login*/
+.container-form {
+    max-width: 55%;
+    width: 55%;
+    height: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 2px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 15px;
+}
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Content-login*/
+.container-content {
+    width: 70%;
+    height: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 55%;
+    box-sizing: border-box;
+    background-color: #5181b8;
+    box-shadow: 1px 0 0 #e7e8ec, -1px 0 0 #e7e8ec;
+    left: 22.5%;
+    right: auto;
+}
+
+.container-footer {
+    display: inline-block;
+    padding: 16px 20px;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+.footer_title {
+    font-size: 20px;
+    float: left;
+}
+
+.footer-nav {
+    margin-top: 6px;
+    width: 100%;
+}
+
+
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 10px 10px;
+    background: #5991c7;
+    color: #e7e8ec;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #5991c7;
+    border-bottom: 2px solid #5991c7;
+    border-right: 2px solid #5991c7;
+}
+
+td:first-child {
+    border-left: 2px solid #5991c7;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border-color:#cad9e8 ;
+}
+
+.a-button {
+    padding: 5px;
+    background: #5181b8;
+    color: white;
+    border: 1px solid #5991c7;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    background: #5181b8;
+    color: white;
+    border: 1px solid #5991c7;
+    border-radius: 5px;
+}
+.container-form-login{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    max-width: 270px;
+    max-height: 350px;
+    height: 280px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 0 0.5px #5991c7;
+    padding-top: 10px;
+}
+.form-login{
+    margin-top: 15px;
+}
+.login-title{
+    text-align: center;
+    float: none;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gg,.ss{
+    margin-right: -8px;
+}
+.edit{
+    height: 340px;
+}
+ul,.ul{
+    padding: 0;
+    float: right;
+    margin: 8px -40px 0 0;
+}
+.mess{
+    color: red;
+    border: 0;
+    text-align: center;
+    width: 220px;
+    margin-left: 0;
+    padding: 0;
+}
+.localize{
+    float: right;
+    width: 16px;
+    height: 12px;
+    margin-right: 4px;
+}
